@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+body{
+    margin: 0;
+}
+.container{
+    background-color: rgb(48, 47, 47);
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 500px;
+    height: 550px;
+    border-width: 10px;
+    border-color: white;
+    background-image: './images/logo192.png';
+}
+.body{
+    padding: 57px 27px;
+    font-family:sans-serif ;
+    line-height: 35px;
+    /*background-image: url(./images/logo192.png);*/
+    background-repeat: no-repeat;
+    background-position: 100% 75%;
+
+}
+.main--title{
+
+    font-family:Inter, sans-serif ;
+    color: antiquewhite;
+    letter-spacing: -2px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.main--lists{
+ 
+    font-family:Inter, sans-serif ;
+    color: antiquewhite;   
+    padding-block: 10px;
+    max-width: 400px;
+}
+.main--lists > li::marker{
+    color: #61dafb;
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    height: 90px;
+    align-items: center;
+    padding: 30px 25px;
+    justify-content: space-between;
+}
+.img {
+    
+    margin: 0;
+    height: 30px;
+    margin-right: 7px;
+}
+.header1{
+   
+    margin-right: auto;
+    color: #61dafb;
+    font-family:sans-serif ;
+}
+.header2{
+    margin: auto;
+    font-family:sans-serif ;
+    color: antiquewhite;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.main--frame{
+    background-color: rgb(22, 21, 21);
+    margin: 5% 25%;
+    height: 90%;
+    border-radius: 10px;
+    line-height: -1px;
+    
+
+}
+.main--info{
+    display: contents;
+    line-height: -2px;
+}
+.my--img{
+    width: 100%;
+    height: 150px;
+    
+    margin-bottom: 15px
+}
+.infos{
+    background-color: rgb(19, 18, 18);
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.name,.field,.type{
+    background-color: rgb(19, 18, 18);
+    font-family:sans-serif ;
+    color: white;
+    margin: 5px 0;
+}
+.type{
+    margin-bottom: -50px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: small;
+    color: white;
+    background-color:  rgb(19, 18, 18);
+    margin-top: 0px;
+}
+.buttons{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+    margin-top: 0px;
+    margin-left: 30px;
+    align-items: center;
+
+}
+.buttons button {
+   
+    align-items: center;
+    justify-content: center;
+   
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    
+    
+    cursor: pointer;
+  }
+.email--button{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    cursor:pointer;
+    
+}
+.linkedin--button{
+    background-color: rgb(31, 95, 214);
+    cursor: pointer;
+    color: white ;
+}
+.about{
+    margin-left: 10px;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+    font-family: sans-serif;
+    color: white;
+}
+.interests{
+    margin-left: 10px;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+    font-family: sans-serif;
+    color: white;
+}
+h4{
+    background-color: rgb(19, 18, 18);
+    font-family: sans-serif;
+    margin-bottom: 0;
+    margin-top: 1px;
+}
+.foot--icons {
+    background-color: rgb(12, 12, 12);
+    align-items: center;
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 15px; /* Add space between the icons */
+    padding: 13px 5px;
+    margin-top: 0px;
+}
+.contacts{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 4px 2px 2px 2px    #121213;
+    font-family: sans-serif;
+    margin-right: 20px;
+    margin-top: 20px;
+
+
+}
+.contact--img{
+    width:100%;
+    height: 300px;
+    padding: 10px;
+}
+.infos--group{
+    display: flex;
+}
+.contact--frame{
+    display: flex;
+
+}
+.keeper--head{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(218, 156, 42);
+    margin-top:0px;
+    display: flex;
+    color: white;
+}
+.keeper--head>h1{
+    background-color: rgb(218, 156, 42);
+    margin-left: 20px;
+}
+.note--frame{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 5px;
+    background-color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 10px 5px rgb(165, 126, 126);
+     
+}
+.footer{
+    color: #121213;
+    background-color: antiquewhite;
+    bottom: 0px;
+    position:fixed;
+}
+.note--title{
+    background-color: white;
+    margin-bottom: 4px;
+    max-width: 250px;
+}
+.note--content{
+    margin-top: 0px;
+    background-color: white;
+    color: #121213;
+    max-width: 250px;
+}
+.notes--con{
+    display: flex;
+}
